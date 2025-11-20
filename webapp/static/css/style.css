@@ -1,0 +1,44 @@
+body {
+    background-color: #1e1e2f;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+    background-color: #292940;
+    border-bottom: 1px solid #444;
+}
+
+.container {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #444;
+}
+
+tr.suspicious {
+    background-color: #8b0000;
+    color: #fff;
+}
+
+#chart {
+    margin-top: 30px;
+    height: 400px;
+}
+
+#alerts {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ff6666;
+}
