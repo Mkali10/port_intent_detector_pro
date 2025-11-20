@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Port Intent Detector PRO</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Port Intent Detector PRO</h1>
+    </div>
+    <div class="container">
+        <div id="alerts"></div>
+        <table id="connections-table">
+            <thead>
+                <tr>
+                    <th>PID</th>
+                    <th>Process</th>
+                    <th>Local</th>
+                    <th>Remote</th>
+                    <th>Protocol</th>
+                    <th>Intent</th>
+                    <th>Suspicious</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <div id="chart"></div>
+    </div>
+    <script src="/static/js/live.js"></script>
+</body>
+</html>
