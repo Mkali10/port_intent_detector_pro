@@ -1,0 +1,11 @@
+
+---
+
+## **requirements.txt**
+```txt
+psutil>=5.9
+Flask>=2.3
+flask-socketio>=6.3
+PyQt6>=6.6
+plotly>=5.15
+reportlab>=3.8
